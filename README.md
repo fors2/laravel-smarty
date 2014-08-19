@@ -11,13 +11,13 @@ Controller内で定義したクラス変数をAssignし、画面表示します�
 使い方
 ------
 
-クラス変数($this)はすべて自動的にAssignされます。
-(php)$this->hoge = "hello world !";
-↓
-(tpl){$hoge} <!-- hello world -->
-
-テンプレートは$this->layoutで指定します。
-（拡張子不要）
-
-$this->layout = "index";
-とするとindex.tplが画面に表示されます。
+クラス変数($this)はすべて自動的にAssignされます。<br/>
+(php)$this->hoge = "hello world !";<br/>
+↓<br/>
+(tpl){$hoge} <!-- hello world -->  
+<br/>
+テンプレートは$this->layoutで指定します。<br/>
+（拡張子不要）<br/>
+<br/>
+$this->layout = "index";<br/>
+とするとindex.tplが画面に表示されます。<br/>
